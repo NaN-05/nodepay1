@@ -7,12 +7,12 @@ from loguru import logger
 
 # Constants
 NP_TOKEN = "WRITE_YOUR_NP_TOKEN_HERE"
-PING_INTERVAL = 30  # seconds
+PING_INTERVAL = 60  # seconds
 RETRIES = 60  # Global retry counter for ping failures
 
 DOMAIN_API = {
-    "SESSION": "https://api.nodepay.ai/api/auth/session",
-    "PING": "https://nw2.nodepay.ai/api/network/ping"
+    "SESSION": "https://api.nodepay.org/api/auth/session",
+    "PING": "https://nw.nodepay.org/api/network/ping"
 }
 
 CONNECTION_STATES = {
