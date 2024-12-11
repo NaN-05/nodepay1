@@ -1,0 +1,8 @@
+requests
+asyncio
+aiohttp
+pip install 
+loguru
+cloudscraper
+curl_cffi
+fake_useragent
